@@ -2,8 +2,10 @@
 ### UI for interacting with tech database
 ---
 
+
 This app will provide an interface to interact and share tech logs and special notes.
 
+Using **handlebars** as templating engine.
 
 ---
 ### Configuration
@@ -15,4 +17,6 @@ Added { "start": "cross-env NODE_ENV=production node app", "dev": "cross-env NOD
 ```
 
 Created config directory, containing the config.env file (which will not be added to source control).
+
+Using morgan for development only so the app logs more information about the requests the app serves and the time it needs to do so.
 
