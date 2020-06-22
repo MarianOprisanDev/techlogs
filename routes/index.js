@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 // description: Dashboard
 // @route       GET /dashboard
 router.get('/dashboard', (req, res) => {
-    res.render('dashboard');
+    res.render('dashboard', { layout: 'dashboard'});
 });
 
 module.exports = router;
